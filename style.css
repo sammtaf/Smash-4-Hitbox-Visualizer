@@ -1,0 +1,129 @@
+body {background: url("_assets/_backgrounds/Dull_BG.JPG");
+     margin: 0;
+     padding: 0;
+    /*background-image: linear-gradient(to right, white, rgba(8, 49, 154, 0.64))url("_assets/_backgrounds/2658559-tumblr_n14fsnmjcg1so0s37o5_1280.jpg");*/
+    }
+
+h1 {background: #08319A;
+    color: white;
+    font-family: "Myriad Pro", sans-serif;
+    font-stretch: condensed;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 0px 5px 0px;
+    margin: 0;
+    }
+
+h2 {font-family: "Myriad Pro", sans-serif;
+    font-size: 32px;
+    font-stretch: condensed;
+    font-weight: bold;
+    text-align: center;
+    background: #333333;
+    color: white;
+    padding: 8px 0px 5px 0px;
+   /* text-transform: uppercase; */
+    
+}
+    
+ul > li {
+    display: inline-block;
+    /* You can also add some margins here to make it look prettier */
+}
+
+p {font-family: "Myriad Pro", sans-serif; 
+    text-align: center; 
+    /* margin-right: 200px;
+     margin-left: 200px;
+     border-width: 1200px; */ }
+
+.background img {
+    margin: 10px;
+    width: 225px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+
+img.logo {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;    
+}
+
+.background img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 240px;
+}
+
+div.background {background: rgba(51, 51, 51, 0.87);
+                /*width: 80%;*/
+                width: 95%;
+                margin: 0 auto;
+                padding-top: 5px;
+                padding-bottom: 5px;}
+
+.button {
+    background-color: #333333;
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition: width 1s, height 0.5s;
+    transition: width 1s, height .5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: crimson;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 155px;
+    height: 55px;
+}
+
+.back {
+    background-color: #08319A;
+    
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.spoiler {text-align: center;
+        margin: auto;}
+
+.ui-widget {
+    width: 100%; 
+    font-size: 16px;
+    max-width: 75%;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+
+.ui-widget .ui-state-focus
+{
+    background: blue;
+    border: 1px solid red;
+}
+
+
+/*div {
+  display: flex;
+  flex-wrap: wrap;
+    }
+*/

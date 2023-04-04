@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="_assets/_favicon/favicon-32x32.png">
+    <title>Smash 4 Hitbox Visualizations</title>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+  $( function() {
+    var availableTags = [
+      "Bayonetta",
+      "Bowser",
+      "Bowser Jr",
+      "Captain Falcon",
+      "Charizard",
+      "Cloud",
+      "Corrin",
+      "Dark Pit",
+      "Diddy Kong",
+      "Donkey Kong",
+      "Dr Mario",
+      "Duck Hunt",
+      "Falco",
+      "Fox",
+        "Game and Watch",
+      "Ganondorf",
+      "Greninja",
+      "Ike",
+      "Jigglypuff",
+      "King Dedede",
+      "Kirby",
+      "Link",
+      "Little Mac",
+      "Lucario",
+      "Lucas",
+      "Lucina",
+      "Luigi",
+      "Mario",
+        "Marth",
+      "Mega Man",
+      "Meta Knight",
+      "Mewtwo",
+      "Mii",
+      "Ness",
+      "Pac-Man",
+      "Palutena",
+      "Peach",
+      "Pikachu",
+      "Pikmin and Olimar",
+      "Pit",
+      "ROB",
+      "Robin",
+      "Rosalina and Luma",
+      "Roy",
+      "Ryu",
+      "Samus",
+      "Sheik",
+      "Shulk",
+      "Sonic",
+      "Toon Link",
+      "Villager",
+      "Wario",
+      "Wii Fit Trainer",
+      "Yoshi",
+      "Zelda",
+      "Zero Suit Samus",
+  
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+  </script>
+  
+</head>
+<body>
+    <h1>SMASH 4 HITBOX VISUALIZATIONS</h1>
+    
+    <p>
+        <img src="_assets/Smash_Logo.png" alt="Smash Logo" class="logo"/>
+    </p>
+
+    <h2>Search a character!</h2>
+    
+    <div >
+      <label for="tags"></label>
+      <input class="ui-widget" type="text" id="tags" placeholder="Search for character...">
+    </div>
+    
+    <h2>Click on a character below to view their hitboxes!</h2>
+    
+    <div class="background">
+    <p>
+    <a href="_pages/bayonetta.html"><img src="_assets/_portraits/character-bayonetta.png" alt="bayonetta"></a>
+    
+    <a href="_pages/bowser.html"><img src="_assets/_portraits/character-bowser.png" alt="bowser"></a>
+    
+    <a href="_pages/bowser_jr.html"><img src="_assets/_portraits/character-bowser_jr.png" alt="bowser jr."></a>
+    
+    <a href="_pages/captain_falcon.html"><img src="_assets/_portraits/character-captain_falcon.png" alt="captain"></a>
+    
+    <a href="_pages/charizard.html"><img src="_assets/_portraits/character-charizard.png" alt="charizard"></a>
+    
+    <a href="_pages/cloud.html"><img src="_assets/_portraits/character-cloud.png" alt="cloud"></a>
+    
+    <a href="_pages/corrin.html"><img src="_assets/_portraits/character-corrin.png" alt="corrin"></a>
+    
+    <a href="_pages/dark_pit.html"><img src="_assets/_portraits/character-dark_pit.png" alt="dark pit"></a>
+    
+    <a href="_pages/diddy_kong.html"><img src="_assets/_portraits/character-diddy_kong.png" alt="diddy kong"></a>
+    
+    <a href="_pages/donkey_kong.html"><img src="_assets/_portraits/character-donkey_kong.png" alt="donkey kong"></a>
+    
+    <a href="_pages/dr_mario.html"><img src="_assets/_portraits/character-dr_mario.png" alt="doc"></a>
+    
+    <a href="_pages/duck_hunt.html"><img src="_assets/_portraits/character-duck_hunt.png" alt="duck hunt"></a>
+    
+    <a href="_pages/falco.html"><img src="_assets/_portraits/character-falco.png" alt="falco"></a>
+    
+    <a href="_pages/fox.html"><img src="_assets/_portraits/character-fox.png" alt="fox"></a>
+    
+    <a href="_pages/game_and_watch.html"><img src="_assets/_portraits/character-game_and_watch.png" alt="game and watch"></a>
+    
+    <a href="_pages/ganondorf.html"><img src="_assets/_portraits/character-ganondorf.png" alt="ganondorf"></a>
+    
+    <a href="_pages/gekkouga.html"><img src="_assets/_portraits/character-gekkouga.png" alt="greninja"></a>
+    
+    <a href="_pages/ike.html"><img src="_assets/_portraits/character-ike.png" alt="ike"></a>
+    
+    <a href="_pages/jigglypuff.html"><img src="_assets/_portraits/character-jigglypuff.png" alt="jigglypuff"></a>
+    
+    <a href="_pages/king_dedede.html"><img src="_assets/_portraits/character-king_dedede.png" alt="king dedede"></a>
+    
+    <a href="_pages/kirby.html"><img src="_assets/_portraits/character-kirby.png" alt="kirby"></a>
+    
+    <a href="_pages/link.html"><img src="_assets/_portraits/character-link.png" alt="link"></a>
+    
+    <a href="_pages/little_mac.html"><img src="_assets/_portraits/character-little_mac.png" alt="little mac"></a>
+    
+    <a href="_pages/lucario.html"><img src="_assets/_portraits/character-lucario.png" alt="lucario"></a>
+    
+    <a href="_pages/lucas.html"><img src="_assets/_portraits/character-lucas.png" alt="lucas"></a>
+    
+    <a href="_pages/lucina.html"><img src="_assets/_portraits/character-lucina.png" alt="lucina"></a>
+    
+    <a href="_pages/luigi.html"><img src="_assets/_portraits/character-luigi.png" alt="luigi"></a>
+    
+    <a href="_pages/mario.html"><img src="_assets/_portraits/character-mario.png" alt="mario"></a>
+    
+    <a href="_pages/marth.html"><img src="_assets/_portraits/character-marth.png" alt="marth"></a>
+    
+    <a href="_pages/megaman.html"><img src="_assets/_portraits/character-megaman.png" alt="megaman"></a>
+    
+    <a href="_pages/metaknight.html"><img src="_assets/_portraits/character-metaknight.png" alt="metaknight"></a>
+    
+    <a href="_pages/mewtwo.html"><img src="_assets/_portraits/character-mewtwo.png" alt="mewtwo"></a>
+    
+    <a href="_pages/mii.html"><img src="_assets/_portraits/character-mii.png" alt="mii"></a>
+    
+    <a href="_pages/ness.html"><img src="_assets/_portraits/character-ness.png" alt="ness"></a>
+    
+    <a href="_pages/pac-man.html"><img src="_assets/_portraits/character-pac-man.png" alt="pac-man"></a>
+    
+    <a href="_pages/palutena.html"><img src="_assets/_portraits/character-palutena.png" alt="palutena"></a>
+    
+    <a href="_pages/peach.html"><img src="_assets/_portraits/character-peach.png" alt="peach"></a>
+    
+    <a href="_pages/pikachu.html"><img src="_assets/_portraits/character-pikachu.png" alt="pikachu"></a>
+    
+    <a href="_pages/pikmin.html"><img src="_assets/_portraits/character-pikmin.png" alt="pikmin and olimar"></a>
+    
+    <a href="_pages/pit.html"><img src="_assets/_portraits/character-pit.png" alt="pit"></a>
+    
+    <a href="_pages/rob.html"><img src="_assets/_portraits/character-rob.png" alt="rob"></a>
+    
+    <a href="_pages/robin.html"><img src="_assets/_portraits/character-robin.png" alt="robin"></a>
+    
+    <a href="_pages/rosetta.html"><img src="_assets/_portraits/character-rosetta.png" alt="rosalina"></a>
+    
+    <a href="_pages/roy.html"><img src="_assets/_portraits/character-roy.png" alt="roy"></a>
+    
+    <a href="_pages/ryu.html"><img src="_assets/_portraits/character-ryu.png" alt="ryu"></a>
+    
+    <a href="_pages/samus.html"><img src="_assets/_portraits/character-samus.png" alt="samus"></a>
+    
+    <a href="_pages/sheik.html"><img src="_assets/_portraits/character-sheik.png" alt="sheik"></a>
+    
+    <a href="_pages/shulk.html"><img src="_assets/_portraits/character-shulk.png" alt="shulk"></a>
+    
+    <a href="_pages/sonic.html"><img src="_assets/_portraits/character-sonic.png" alt="sonic"></a>
+    
+    <a href="_pages/toon_link.html"><img src="_assets/_portraits/character-toon_link.png" alt="toon link"></a>
+    
+    <a href="_pages/villager.html"><img src="_assets/_portraits/character-villager.png" alt="villager"></a>
+    
+    <a href="_pages/wario.html"><img src="_assets/_portraits/character-wario.png" alt="wario"></a>
+    
+    <a href="_pages/wii_fit_trainer.html"><img src="_assets/_portraits/character-wii_fit_trainer.png" alt="wii fit trainer"></a>
+    
+    <a href="_pages/yoshi.html"><img src="_assets/_portraits/character-yoshi.png" alt="yoshi"></a>
+    
+    <a href="_pages/zelda.html"><img src="_assets/_portraits/character-zelda.png" alt="zelda"></a>
+    
+    <a href="_pages/zss.html"><img src="_assets/_portraits/character-zss.png" alt="zero suit samus"></a>
+    
+    </p>
+    </div>
+    
+<!--
+  <p>
+    <a href="_pages/bayonetta.html"><img src="_assets/_portraits/character-bayonetta.png"></a>
+    
+    <a href="_pages/bowser.html"><img src="_assets/_portraits/character-bowser.png"></a>
+    
+    <a href="_pages/bowser_jr.html"><img src="_assets/_portraits/character-bowser_jr.png"></a>
+    
+    <a href="_pages/captain_falcon.html"><img src="_assets/_portraits/character-captain_falcon.png"></a>
+    
+    <a href="_pages/charizard.html"><img src="_assets/_portraits/character-charizard.png"></a>
+    
+   
+    
+    </p>
+    <p>
+    <a href="_pages/cloud.html"><img src="_assets/_portraits/character-cloud.png"></a>
+    
+    <a href="_pages/corrin.html"><img src="_assets/_portraits/character-corrin.png"></a>
+    
+    <a href="_pages/dark_pit.html"><img src="_assets/_portraits/character-dark_pit.png"></a>
+    
+    <a href="_pages/diddy_kong.html"><img src="_assets/_portraits/character-diddy_kong.png"></a>
+    
+    <a href="_pages/donkey_kong.html"><img src="_assets/_portraits/character-donkey_kong.png"></a>
+    
+    </p>
+    <p><a href="_pages/dr_mario.html"><img src="_assets/_portraits/character-dr_mario.png"></a>
+    
+    <a href="_pages/duck_hunt.html"><img src="_assets/_portraits/character-duck_hunt.png"></a>
+    
+    <a href="_pages/falco.html"><img src="_assets/_portraits/character-falco.png"></a>
+    
+    <a href="_pages/fox.html"><img src="_assets/_portraits/character-fox.png"></a>
+    
+    <a href="_pages/game_and_watch.html"><img src="_assets/_portraits/character-game_and_watch.png"></a>
+    
+    </p>
+    <p><a href="_pages/ganondorf.html"><img src="_assets/_portraits/character-ganondorf.png"></a>
+    
+    <a href="_pages/gekkouga.html"><img src="_assets/_portraits/character-gekkouga.png"></a>
+    
+    <a href="_pages/ike.html"><img src="_assets/_portraits/character-ike.png"></a>
+    
+    <a href="_pages/jigglypuff.html"><img src="_assets/_portraits/character-jigglypuff.png"></a>
+    
+    <a href="_pages/king_dedede.html"><img src="_assets/_portraits/character-king_dedede.png"></a>
+    
+    </p>
+    <p><a href="_pages/kirby.html"><img src="_assets/_portraits/character-kirby.png"></a>
+    
+    <a href="_pages/link.html"><img src="_assets/_portraits/character-link.png"></a>
+    
+    <a href="_pages/little_mac.html"><img src="_assets/_portraits/character-little_mac.png"></a>
+    
+    <a href="_pages/lucario.html"><img src="_assets/_portraits/character-lucario.png"></a>
+    
+    <a href="_pages/lucas.html"><img src="_assets/_portraits/character-lucas.png"></a>
+    
+    <a href="_pages/lucina.html"><img src="_assets/_portraits/character-lucina.png"></a>
+    
+    <a href="_pages/luigi.html"><img src="_assets/_portraits/character-luigi.png"></a>
+    
+    <a href="_pages/mario.html"><img src="_assets/_portraits/character-mario.png"></a>
+    
+    <a href="_pages/marth.html"><img src="_assets/_portraits/character-marth.png"></a>
+    
+    <a href="_pages/megaman.html"><img src="_assets/_portraits/character-megaman.png"></a>
+    
+    <a href="_pages/metaknight.html"><img src="_assets/_portraits/character-metaknight.png"></a>
+    
+    <a href="_pages/mewtwo.html"><img src="_assets/_portraits/character-mewtwo.png"></a>
+    
+    <a href="_pages/mii.html"><img src="_assets/_portraits/character-mii.png"></a>
+    
+    <a href="_pages/ness.html"><img src="_assets/_portraits/character-ness.png"></a>
+    
+    <a href="_pages/pac-man.html"><img src="_assets/_portraits/character-pac-man.png"></a>
+    
+    <a href="_pages/palutena.html"><img src="_assets/_portraits/character-palutena.png"></a>
+    
+    <a href="_pages/peach.html"><img src="_assets/_portraits/character-peach.png"></a>
+    
+    <a href="_pages/pikachu.html"><img src="_assets/_portraits/character-pikachu.png"></a>
+    
+    <a href="_pages/pikmin.html"><img src="_assets/_portraits/character-pikmin.png"></a>
+    
+    <a href="_pages/pit.html"><img src="_assets/_portraits/character-pit.png"></a>
+    
+    <a href="_pages/rob.html"><img src="_assets/_portraits/character-rob.png"></a>
+    
+    <a href="_pages/robin.html"><img src="_assets/_portraits/character-robin.png"></a>
+    
+    <a href="_pages/rosetta.html"><img src="_assets/_portraits/character-rosetta.png"></a>
+    
+    <a href="_pages/roy.html"><img src="_assets/_portraits/character-roy.png"></a>
+    
+    <a href="_pages/ryu.html"><img src="_assets/_portraits/character-ryu.png"></a>
+    
+    <a href="_pages/samus.html"><img src="_assets/_portraits/character-samus.png"></a>
+    
+    <a href="_pages/sheik.html"><img src="_assets/_portraits/character-sheik.png"></a>
+    
+    <a href="_pages/shulk.html"><img src="_assets/_portraits/character-shulk.png"></a>
+    
+    <a href="_pages/sonic.html"><img src="_assets/_portraits/character-sonic.png"></a>
+    
+    <a href="_pages/toon_link.html"><img src="_assets/_portraits/character-toon_link.png"></a>
+    
+    <a href="_pages/villager.html"><img src="_assets/_portraits/character-villager.png"></a>
+    
+    <a href="_pages/wario.html"><img src="_assets/_portraits/character-wario.png"></a>
+    
+    <a href="_pages/wii_fit_trainer.html"><img src="_assets/_portraits/character-wii_fit_trainer.png"></a>
+    
+    <a href="_pages/yoshi.html"><img src="_assets/_portraits/character-yoshi.png"></a>
+    
+    <a href="_pages/zelda.html"><img src="_assets/_portraits/character-zelda.png"></a>
+    
+    <a href="_pages/zss.html"><img src="_assets/_portraits/character-zss.png"></a>
+    </p>
+  -->
+   
+<!--   
+    
+    <select>
+        <option value="cloud.php">Cloud</option>
+        <option>Corrin</option>
+        <option>Sheik</option>
+    </select>
+    -->
+
+</body>
+</html>
